@@ -55,12 +55,17 @@
     font-style: normal;
     font-size: 18px;
     font-weight: 400;
-    flex: 0 0 240px;
+    width: 33.333%;
+}
+
+.address__container {
+    max-width: 240px;
 }
 
 .header__address {
     display: flex;
     flex-direction: column;
+    align-items: end;
 }
 
 /* COVER */
@@ -251,10 +256,38 @@
 }
 
 .about__text {
+    font-size: 20px;
 }
 
 .about__text:first-of-type {
     margin-bottom: 25px;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 24px;
+}
+
+.footer__nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__nav-item_active a {
+    text-decoration: none;
+}
+
+.footer__social-list {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    width: 33.333%;
+    justify-content: end;
 }
 
 /* ОБЩЕЕ */
