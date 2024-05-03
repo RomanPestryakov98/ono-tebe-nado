@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +9,43 @@
 </head>
 <body>
     <header class="header">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item header__item_active">
+                    <a href="" class="header__link">
+                        главная
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a href="" class="header__link">
+                        посмотреть лоты
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a href="" class="header__link">
+                        об аукционе
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
+        <a href="" class="header__logo">
+            <img src="./img/logo.svg" alt="Лого" class="header__logo-image">
+        </a>
+
+        <address class="address header__address">
+            <a href="tel:+99995555555">+9 999 555 5555</a>
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+            <p>наб. Принсенграхт 263-265, Амстердам</p>
+        </address>
     </header>
+
     <main>
         <section class="cover"></section>
         <section class="lots"></section>
         <section class="about"></section>
     </main>
+
     <footer class="footer">
 
     </footer>
