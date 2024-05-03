@@ -14,9 +14,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1052px;
     margin: 0 auto;
-    padding: 92px 0 96px;
+    padding: 92px 24px 96px;
     position: relative;
     min-height: 105px;
     box-sizing: content-box;
