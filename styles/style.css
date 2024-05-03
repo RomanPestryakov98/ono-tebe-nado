@@ -8,6 +8,7 @@
     opacity: .6;
     z-index: -1;
 }
+
 /* HEADER */
 
 .header {
@@ -19,9 +20,6 @@
     position: relative;
     min-height: 105px;
     box-sizing: content-box;
-}
-
-.header__nav {
 }
 
 .header__list {
@@ -44,9 +42,6 @@
     list-style-type: none;
 }
 
-.header__link {
-}
-
 .header__logo {
     display: block;
     width: 148px;
@@ -54,9 +49,6 @@
     margin: auto;
     left: 0;
     right: 0;
-}
-
-.header__logo-image {
 }
 
 .address {
@@ -72,6 +64,7 @@
 }
 
 /* COVER */
+
 .cover {
     background: url('../img/lotus-flower.png') no-repeat center/cover;
     position: relative;
@@ -91,17 +84,12 @@
     color: #fff;
     padding-top: 165px;
     padding: 165px 0 135px;
-
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 .cover__title_lh {
     line-height: 100%;
-}
-
-.aligned-text {
-    
 }
 
 .aligned-text_center {
@@ -128,7 +116,6 @@
     font-size: 22px;
     font-weight: 400;
     color: #fff;
-    
 }
 
 .cover__description-text {
@@ -151,13 +138,13 @@
 }
 
 /* COVER */
+
 .lots {
     padding: 180px 24px 90px;
-
 }
 
 .lots__title {
-    
+    margin-left: 26px;
 }
 
 .lots__lots__card-list {
@@ -223,6 +210,51 @@
     font-weight: 400;
     font-size: 20px;
     color: #000;
+}
+
+/* ABOUT */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 90px 24px;
+}
+
+.about__column {
+    flex: 1 0 430px;
+}
+
+.about__column:first-child {
+    max-width: 430px;
+    display: flex;
+    justify-content: center;
+}
+
+.about__logo {
+    border-radius: 50%;
+    background-color: #000;
+    width: 240px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__logo-image {
+    width: auto;
+}
+
+.about__title {
+    margin-bottom: 100px;
+    margin-top: 101px;
+}
+
+.about__text {
+}
+
+.about__text:first-of-type {
+    margin-bottom: 25px;
 }
 
 /* ОБЩЕЕ */
