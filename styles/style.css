@@ -317,14 +317,3 @@
 .footer__social-icon {
     width: 48px;
 }
-
-.test {
-    height: 400px;
-    width: 400px;
-    margin: 0 auto;
-    background-color: gray;
-}
-
-.test__image {
-    width: auto;
-}
